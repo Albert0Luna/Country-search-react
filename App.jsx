@@ -45,11 +45,11 @@ export function App () {
               <div className="region-container">
                 <button onClick={renderAll}>All</button>
                 <button value="Americas" onClick={filterRegion}>America</button>
-                <button value="Europe" onClick={filterRegion}>Europa</button>
+                <button value="Europe" onClick={filterRegion}>Europe</button>
                 <button value="Asia" onClick={filterRegion}>Asia</button>
                 <button value="Africa" onClick={filterRegion}>Africa</button>
                 <button value="Oceania" onClick={filterRegion}>Oceania</button>
-                <button value="Antarctic" onClick={filterRegion}>Antartica</button>
+                <button value="Antarctic" onClick={filterRegion}>Antarctic</button>
               </div>
             </section>
 
